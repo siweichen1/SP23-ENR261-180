@@ -72,12 +72,6 @@ This **c**hanges **d**irectory to the directory after `cd `. Once you do this yo
 end of your git-bash prompt which tells you that this is a repository, and you are on the `main` branch. We won't worry 
 about branches so that's as far as we'll go on that topic unless of course you care to learn more.
 
-### Secure and Share
-The final step requires you to add your instructor as a "collaborator" so they can see your work.
-1. Visit your repository and click the settings tab in the upper right
-2. On the left, click the collaborators tab
-3. Enter your instructor's username (gberl001) and click "add collaborator" so they can see your work.
-
 ## How To (git); _With Git Bash_
 ### Standard flow
 The standard flow we will use for git is to **pull**, **add**, **commit**, and **push**
