@@ -116,3 +116,6 @@ content up on GitHub.
 ```shell
 git push origin main
 ```
+
+## Got Questions?
+Feel free to head on over to the [Discussions](https://github.com/gberl001/SP23-ENR261-180/discussions) to see what others have asked or ask a question yourself.
