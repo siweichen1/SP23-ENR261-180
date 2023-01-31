@@ -9,8 +9,8 @@ By using portable git, you can store the program on your thumb drive and always 
 ### Create a Copy of the Template Repository
 Now that you have git installed on your thumb drive, the next step is getting a copy of this repository. GitHub makes 
 that super easy with the click of a button.
-1. You will have to have an account so you can set that up on [www.GitHub.com](www.GitHub.com)
-1. Navigate to the desired repository [www.GitHub.com/gberl001/SP23-ENR261-180](www.GitHub.com/gberl001/SP23-ENR261-180)
+1. You will have to have an account so you can set that up on [www.GitHub.com](https://github.com/)
+1. Navigate to the desired repository [www.GitHub.com/gberl001/SP23-ENR261-180](https://github.com/gberl001/SP23-ENR261-180)
 1. Click the green "Use this template" button in the upper right portion of the layout, and select "Create a new repository".
 1. At the prompt you will be asked to give your repository a name, please name it `SP23-ENR261-180-LASTNAME` and replace the `LASTNAME` with your last name
    1. As an example, my repository would be named `SP23-ENR261-180-BERL`.
