@@ -199,7 +199,7 @@ To push the current branch and set the remote as upstream, use
 To have this happen automatically for branches without a tracking
 upstream, see 'push.autoSetupRemote' in 'git help config'.
 ```
-### Uh oh
+#### Uh oh
 Looks like we have an error. This is no big deal, this will happen during your first push and git is telling you exactly 
 what to do to fix it, we simply have to run `git push --set-upstream origin main`. What this is doing, is telling git 
 that our remote repository `origin/main` is the matching content for this local repository. After running this one-time 
