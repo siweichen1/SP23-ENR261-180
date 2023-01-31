@@ -189,7 +189,48 @@ locally that isn't on the remote github repository (origin/main). And again, git
 to use `git push` to publish my local commits. This will push my changes up to github.
 
 ### Analyzing `git status` after `git push`
+```shell
+> git push
+fatal: The current branch main has no upstream branch.
+To push the current branch and set the remote as upstream, use
 
+    git push --set-upstream origin main
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+```
+### Uh oh
+Looks like we have an error. This is no big deal, this will happen during your first push and git is telling you exactly 
+what to do to fix it, we simply have to run `git push --set-upstream origin main`. What this is doing, is telling git 
+that our remote repository `origin/main` is the matching content for this local repository. After running this one-time 
+command, future pushes will be done with simply using `git push`. Alternatively, as in the instructions above, we could 
+specify where the content needs to go by using `git push origin main`.
+
+#### Try again
+Again, we can either use `git push origin main` or run `git push --set-upstream origin main` once and then use 
+`git push` for any pushes after that.
+```shell
+> git push --set-upstream origin main
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 10 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 2.35 KiB | 2.35 MiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To personal_github.com:gberl001/SP23-ENR261-180.git
+   94c9f84..0d055de  main -> main
+
+> git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+```
+And voila, this is the message you should see to confirm you have no changes locally that are not in your remote 
+repository (origin/main) so at this point you can close the computer and move to another computer, delete the files, 
+etc. But until you're comfortable, you should probably check your repository on github.com to make sure you see the 
+changes.
 
 ## Got Questions?
 Feel free to head on over to the [Discussions](https://github.com/gberl001/SP23-ENR261-180/discussions) to see what
